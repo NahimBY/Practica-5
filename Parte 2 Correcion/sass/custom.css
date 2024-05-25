@@ -156,6 +156,10 @@ header > .container {
   box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.45);
 }
 
+@media (min-width: 992px){
+
+}
+
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
  * Copyright 2011-2024 The Bootstrap Authors
@@ -350,6 +354,16 @@ header > .container {
   }
 }
 
+@media (max-width: 992px){
+ .img-container-sub-banner{
+  display: none;
+ }
+
+ .green-shadow{
+  display: none;
+ }
+}
+
 html{
   overflow-x: hidden;
 }
@@ -365,7 +379,6 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  width: 100%;
 }
 
 hr {
@@ -4132,7 +4145,6 @@ textarea.form-control-lg {
   --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
   display: flex;
   flex-direction: column;
-  padding-left: 50vh;
   margin-bottom: 0;
   list-style: none;
 }
